@@ -174,6 +174,13 @@ float: left;
     
 } */
 
+
+
+
+/* 댓글 높이 사이즈 설정 */
+.coment--heightSize{
+    height: 100vh;
+}
 /* 푸터 */
 .footerWrap{
     width: inherit;
