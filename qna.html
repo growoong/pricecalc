@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>구매대행계산기</title>
 
-<link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-rel="stylesheet"
-integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-crossorigin="anonymous">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
 
         <link
@@ -26,112 +26,167 @@ crossorigin="anonymous">
         <!-- 헤더 -->
         <header class="header">
             <div class="header--left">
-            <a href="index.html"><i class="fa-solid fa-registered"></i>구매대행계산기</a><span><strong style="font-weight: 700; margin-right: 8px;">공지</strong>공지사항 입력하는 공간</span>
-          </div>
-          <div class="header--user"><i class="fa-solid fa-user"></i>사용자 이름</div>
-          </header>
+                <a href="index.html">
+                    <i class="fa-solid fa-registered"></i>구매대행계산기</a>
+                <span>
+                    <strong style="font-weight: 700; margin-right: 8px;">공지</strong>공지사항 입력하는 공간</span>
+            </div>
+            <div class="header--user">
+                <i class="fa-solid fa-user"></i>사용자 이름</div>
+        </header>
 
         <!-- 네비 -->
         <div class="navContents--wrap">
-            <nav class="nav--nav">
-                <ul class="nav--items">
-                    <li class="nav--item">
-                        <a href="1.html">중국 구매대행</a>
-                    </li>
-                    <li class="nav--item">
-                        <a href="2.html">유럽 구매대행</a>
-                    </li>
-                    <li class="nav--item">
-                        <a href="qna.html">QnA 공지사항</a>
-                    </li>
-                </ul>
-            </nav>
+          <nav class="nav--nav">
+              <ul class="nav--items">
+                  <li class="nav--items--title">구매대행 마진율 계산기</li>
+                  <li class="nav--item">
+                      <a href="1.html">🇨🇳 중국 구매대행</a>
+                  </li>
+                  <li class="nav--item">
+                      <a href="2.html">🇪🇺 유럽 구매대행</a>
+                  </li>
+                  <li class="nav--items--title mt-5">기타</li>
+                  <li class="nav--item nav--select">
+                      <a href="qna.html">자주묻는질문(FAQ)</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="">공지사항</a>
+                </li>
+                <li class="nav--item">
+                  <a href="">사용방법</a>
+              </li>
+              </ul>
+          </nav>
 
             <!-- 콘텐츠 -->
             <div>
                 <div class="content">
-                    <h1 class="title"> FAQ</h1>
+                    <h1 class="title">
+                        FAQ</h1>
                     <!-- 아코디언 FAQ -->
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne"
+                                    aria-expanded="true"
+                                    aria-controls="collapseOne">Accordion Item #1
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseOne"
+                                class="accordion-collapse collapse show"
+                                aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong>
+                                    It is shown by default, until the collapse plugin adds the appropriate classes
+                                    that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of
+                                    this with custom CSS or overriding our default variables. It's also worth noting
+                                    that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Accordion Item #2
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseTwo"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong>
+                                    It is hidden by default, until the collapse plugin adds the appropriate classes
+                                    that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of
+                                    this with custom CSS or overriding our default variables. It's also worth noting
+                                    that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Accordion Item #3
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseThree"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong>
+                                    It is hidden by default, until the collapse plugin adds the appropriate classes
+                                    that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of
+                                    this with custom CSS or overriding our default variables. It's also worth noting
+                                    that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
 
-                      <!-- 아코디언 끝 -->
-
-
+                    <!-- 아코디언 끝 -->
 
                     <!-- 라이브리 시티 설치 코드 -->
-                    <h2 class="h2--title margin--bottom-h2"> 그 외 문의 사항 남기기</h2>
+                    <h2 class="h2--title margin--bottom-h2">
+                        그 외 문의 사항 남기기</h2>
                     <div class="coment--heightSize">
-<div id="lv-container" data-id="city" data-uid="MTAyMC81ODIzNC8zNDY5Nw==">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
+                        <div id="lv-container" data-id="city" data-uid="MTAyMC81ODIzNC8zNDY5Nw==">
+                            <script type="text/javascript">
+                                (function (d, s) {
+                                    var j,
+                                        e = d.getElementsByTagName(s)[0];
 
-       if (typeof LivereTower === 'function') { return; }
+                                    if (typeof LivereTower === 'function') {
+                                        return;
+                                    }
 
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
+                                    j = d.createElement(s);
+                                    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                                    j.async = true;
 
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
-</div>
-</div>
-<!-- 시티 설치 코드 끝 -->
-                    <!-- <h1 class="title">
-                        구매대행계산기 사용방법</h1>
-
-                    <section class="desc">
-                        사용방법1
-                        <div class="desc--title">계산기 사용방법 1</div>
-                        <div class="desc--contents">사용방법 본문 텍스트 1</div>
-                        <!- 사용방법2 --
-                        <div class="desc--title">공지사항 이용방법</div>
-                        <div class="desc--contents">사용방법 본문 텍스트 1</div>
-                    
-                        <div class="desc--title">
-                            사용자 쿠키 삭제 방법</div>
-                        <div class="desc--contents">사용방법 본문 텍스트 1</div>
-                    </section>
-                -->
-                </div> 
+                                    e
+                                        .parentNode
+                                        .insertBefore(j, e);
+                                })(document, 'script');
+                            </script>
+                            <noscript>
+                                라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+                        </div>
+                    </div>
+                    <!-- 시티 설치 코드 끝 -->
+                    <!-- <h1 class="title"> 구매대행계산기 사용방법</h1> <section class="desc"> 사용방법1 <div
+                    class="desc--title">계산기 사용방법 1</div> <div class="desc--contents">사용방법 본문 텍스트
+                    1</div> <!- 사용방법2 -- <div class="desc--title">공지사항 이용방법</div> <div
+                    class="desc--contents">사용방법 본문 텍스트 1</div> <div class="desc--title"> 사용자 쿠키 삭제
+                    방법</div> <div class="desc--contents">사용방법 본문 텍스트 1</div> </section> -->
+                </div>
             </div>
         </div>
         <!-- <div class="floatBnt">맨위로</div> -->

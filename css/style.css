@@ -75,13 +75,22 @@ body{
     color: #7c838c;
     background-color:#41454A;
     padding: 36px 24px 0 24px;
-
-    
 }
-.nav--items{}
-.nav--item{
+
+/* 네비 h3 */
+.nav--items--title{
     padding-bottom: 16px;
     border-bottom: #3e4146 2px solid;
+    width: inherit;
+    margin-bottom: 16px;
+    color: #b8c2d1;
+}
+
+
+.nav--items{}
+
+.nav--item{
+    padding-bottom: 8px;
     width: inherit;
     margin-bottom: 16px;
 }
@@ -98,12 +107,17 @@ body{
     color: #fff;
 }
 
+.nav--select{
+    color: #fff;
+    font-weight: 600;
+}
 
 
 /* 콘텐츠 */
 .content{
     /* float: left; */
     margin: 40px;
+    min-width: 400px;
 }
 /* ------계산기*/
 .title{
@@ -115,6 +129,7 @@ margin-bottom: 36px;
 
 .calcTable{
     width: inherit;
+
     /* 본문 폰트 컬러 */
     color: #41454A;
 }
